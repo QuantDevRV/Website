@@ -1,0 +1,271 @@
+*{
+    margin : 0% ;
+    padding: 0%;
+    font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+
+}
+ 
+main{
+    height: 100%;
+    width: 100%;
+}
+
+#Header{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    z-index: 20;
+}
+#Header a{
+    text-decoration: none;
+    color: black;
+}
+#Header a:hover{
+    color: blue;
+}
+
+.texts{
+color: black;
+margin: 13px;
+font-weight: bold;
+display: flex;
+}
+
+.texts:hover{
+    color: blue;
+}
+#down{
+    padding: 3px;
+    margin-top: 1px;
+    margin-left:-15px;
+}
+#logo{
+    margin: 5px;
+    border: 2px,solid,black;
+    border-radius: 50%;
+    overflow: hidden;
+    margin-right: 10px;
+}
+
+#logo img{
+    object-fit:cover;
+    display: flex;
+    align-items: center;
+}
+
+#Contact{
+margin-left: 490px;
+}
+
+.icon{
+margin-left: 25px;
+padding: 5px;
+border-radius: 50%;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.icon:hover{
+    background-color: blue;
+    color: white;
+}
+#Login{
+    display: flex;
+    align-items: center;
+    margin-left: 50px;
+    margin-right: 50px;
+    padding: 5px;
+    font-weight: bold;
+    border-radius: 100px;
+}
+#Login:hover{
+    background-color: blue;
+    color: white;
+}
+#Signup{
+    background-color: green;
+    font-weight: bold;
+    color: white;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 6px;
+    padding-bottom: 8px;
+}
+#Signup:hover{
+    background-color: rgb(0, 47, 0);
+} 
+
+#fHeader{
+    width: 100%;
+    height: 10%;
+    background-color: white;
+}
+
+#page1{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+}
+#bigbox{
+    width: 100%;
+    height: 85%;
+    display: flex;
+}
+
+.boxes{
+    color: beige;
+}
+#box1{
+    width: 50%;
+    height: 100%;
+    color: white;
+  
+}
+#box1 h1{
+    margin: 100px;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(0, 199, 0);
+}
+#box1 p{
+    margin: 50px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+#box2{
+    width: 50%;
+    height: 100%;
+   
+}
+.card{
+position: absolute;
+top: 20%;
+left: 70%;
+    height: 480px;
+    width: 270px;
+    background-color: beige;
+    border: 2px,solid,rgb(255, 255, 255);
+    border-radius: 20px;
+    z-index: 9;
+    overflow: hidden;
+}
+#card1 img{
+object-fit: contain;
+width: 100% ;
+height: 100%;
+
+}
+#card2{
+    rotate: -8deg;
+    background-color: yellow;
+    border: 3px solid  yellow;
+    z-index: 8;
+}
+#card1:hover{
+    z-index: 19;
+}
+
+#card2:hover{
+    z-index: 20;
+}
+#card3:hover{
+    z-index: 21;
+}
+#card4:hover{
+    z-index: 22;
+}
+#card2 img{
+    object-fit: contain;
+    width: 100% ;
+    height: 100%;
+ }
+ #card3 img{
+    object-fit: contain;
+    width: 100% ;
+    height: 100%;
+ }
+ #card4 img{
+    object-fit: contain;
+    width: 100% ;
+    height: 100%;
+ }
+
+
+#card3{
+    rotate: -16deg;
+    background-color: rgb(255, 0, 0);
+    z-index: 7;
+    border: 3px solid rgb(255, 0, 0);
+}
+
+#card4{
+    rotate: -24deg;
+    background-color: rgb(15, 186, 138);
+    z-index: 6;
+    border: 3px solid rgb(15, 186, 138);
+}
+#tagline{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15%;
+    color: rgb(0, 199, 0);
+}
+#page2{
+    width: 100%;
+    height: 90%;
+    background-color: black;
+}
+#main2{
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+   
+}
+
+.containers{
+    height: 480px;
+    width: 270px;
+    background-color:white;
+    display: inline;
+    margin: 25px;
+    border: 3px solid white;
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+#c1 video{
+    object-fit: contain;
+    width: 100% ;
+    height: 100%;
+}
+ #c2 video{
+    object-fit: contain;
+    width: 100% ;
+    height: 100%;
+}
+ #c3 video{
+    object-fit: contain;
+    width: 100% ;
+    height: 100%;
+}
+#c4 video{
+    object-fit: contain;
+    width: 100% ;
+    height: 100%;
+}

@@ -54,6 +54,8 @@ display: flex;
     border-radius: 50%;
     overflow: hidden;
     margin-right: 10px;
+    width: auto;
+    height: auto;
 }
 
 #logo img{
